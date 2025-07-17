@@ -2,56 +2,38 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-
-    <title>NFT preview card component</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>NFT Preview Card</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet" />
   </head>
   <body>
     <main class="card">
-      <article class="container">
-
-       <div class="card__images">
-          <img src="images/image-equilibrium.jpg" alt="Equilibrium" />
-        </div>
-
-
-        <section class="content">
-         <div id="info">
-          <div class="card__title">
-            <h1>Equilibrium #3429</h1>
-          </div>
-          <p>Our Equilibrium collection promotes balance and calm.</p>
-        </div>
-
-
-       <div class="card__time">
-          <div class="card__value">
-            <img src="images/icon-ethereum.svg" alt="Ethereum icon" />
-            <span>0.041 ETH</span>
-          </div>
-          <div class="card__left">
-            <img src="images/icon-clock.svg" alt="Clock icon" />
-            <span>3 days left</span>
-          </div>
-        </div>
-
-
-
-          <hr />
-          <div class="card__creator">
-        <img src="https://media.licdn.com/dms/image/D5603AQHmisevs6V-Wg/profile-displayphoto-shrink_200_200/0/1711565017432?e=2147483647&v=beta&t=2gxdXF049G8KQ53xOdouFjL_DKFruEzC2XH5LmLtem4" alt="Creator avatar" />
-        <p>Creation of <span>Ketan Makode</span></p>
+      <div class="card__image">
+        <img src="images/image-equilibrium.jpg" alt="Equilibrium" />
       </div>
 
+      <div id="info">
+        <div class="card__title">
+          <h1>Equilibrium #3429</h1>
+        </div>
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+      </div>
 
+      <div class="card__time">
+        <div class="card__value">
+          <img src="images/icon-ethereum.svg" alt="Ethereum icon" />
+          <span>0.041 ETH</span>
+        </div>
+        <div class="card__left">
+          <img src="images/icon-clock.svg" alt="Clock icon" />
+          <span>3 days left</span>
+        </div>
+      </div>
+
+      <div class="card__creator">
+        <img src="images/image-avatar.png" alt="Creator avatar" class="avatar" />
+        <p>Creation of <span>Jules Wyvern</span></p>
       </div>
     </main>
 
@@ -59,9 +41,5 @@
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="https://github.com/josephin09" target="_blank">Josephin</a>.
     </footer>
-
-
-
-
   </body>
 </html>
