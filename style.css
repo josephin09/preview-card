@@ -22,6 +22,7 @@ body {
   place-items: center;
   min-height: 100vh;
   font-size:var(--body-font-size);
+  font-family: "Outfit", sans-serif;
 }
 
 main {
