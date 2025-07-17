@@ -58,7 +58,7 @@ body {
   opacity: 1;
 }
 
-.card__title h1 {
+.card__title {
   font-size: 1.4rem;
   color: hsl(0, 0%, 100%);
   font-weight: 600;
