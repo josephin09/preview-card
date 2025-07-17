@@ -59,11 +59,16 @@ body {
 }
 
 .card__title {
+  margin: 0;
+}
+
+.card__title h1 {
   font-size: 1.4rem;
   color: hsl(0, 0%, 100%);
   font-weight: 600;
   margin: 0;
 }
+
 
 .card__info {
   margin: 0.8rem 0;
