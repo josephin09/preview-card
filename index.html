@@ -2,43 +2,59 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NFT Preview Card</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet" />
   </head>
   <body>
-   <main class="card">
-  <div class="card__images">
-    <img src="images/image-equilibrium.jpg" alt="Equilibrium" />
-  </div>
+    <main class="card">
+      <div class="card__images">
+        <img
+          src="images/image-equilibrium.jpg"
+          alt="Equilibrium"
+          class="card__main-image"
+        />
+        <div class="card__images-layer">
+          <img src="images/icon-view.svg" alt="View Icon" />
+        </div>
+      </div>
 
-  <div class="card__content">
-    <h1>Equilibrium #3429</h1>
-    <p>Our Equilibrium collection promotes balance and calm.</p>
-  </div>
+      <h1 class="card__title">Equilibrium #3429</h1>
 
-  <div class="card__time">
-    <div class="card__value">
-      <img src="images/icon-ethereum.svg" alt="Ethereum icon" />
-      <span>0.041 ETH</span>
-    </div>
-    <div class="card__time-left">
-      <img src="images/icon-clock.svg" alt="Clock icon" />
-      <span>3 days left</span>
-    </div>
-  </div>
+      <p class="card__description">
+        Our Equilibrium collection promotes balance and calm.
+      </p>
 
-  <div class="card__creator">
-    <img src="images/image-avatar.png" alt="Creator avatar" class="avatar" />
-    <p>Creation of <span>Jules Wyvern</span></p>
-  </div>
-</main>
+      <div class="card__time">
+        <div class="card__time-left">
+          <img src="images/icon-ethereum.svg" alt="Ethereum" />
+          <span>0.041 ETH</span>
+        </div>
+        <div class="card__time-right">
+          <img src="images/icon-clock.svg" alt="Clock" />
+          <span>3 days left</span>
+        </div>
+      </div>
 
-<footer>
-  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-  Coded by <a href="https://github.com/josephin09" target="_blank">Josephin</a>.
-</footer>
+      <div class="card__creator">
+        <img
+          src="images/image-avatar.png"
+          alt="Creator avatar"
+          class="card__creator-avatar"
+        />
+        <p>Creation of <span>Jules Wyvern</span></p>
+      </div>
+    </main>
 
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.crio.do" target="_blank">Crio</a>. Coded by
+      <a href="https://github.com/josephin09" target="_blank">Josephin</a>.
+    </footer>
   </body>
 </html>
+
